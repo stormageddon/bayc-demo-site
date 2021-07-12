@@ -3,7 +3,7 @@
 "productName": "BAYC-Demo",
 "productVersion": "0.1",
 "dataUrl": "Dist.data.unityweb",
-"wasmCodeUrl": "Dist.wasm.code.unityweb",
+"wasmCodeUrl": "Dist.wasm",
 "wasmFrameworkUrl": "Dist.wasm.framework.unityweb",
 "graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
