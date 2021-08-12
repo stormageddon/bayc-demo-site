@@ -9,7 +9,6 @@
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
 
-    <script src="FileSaver.min.js"></script>
 
     <script>
       var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Dist.json", {onProgress: UnityProgress});
@@ -253,6 +252,11 @@
             document.body.appendChild(downloadLink);
             downloadLink.click();
             document.body.removeChild(downloadLink);
+        }
+
+        function openUrl(url) {
+            console.log("opening url: " + url);
+            window.open(url, '_blank').focus();
         }
     </script>
 
