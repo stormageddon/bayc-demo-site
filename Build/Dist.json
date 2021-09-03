@@ -1,7 +1,7 @@
 {
 "companyName": "MikeCaputo",
-"productName": "PNC-Demo",
-"productVersion": "0.1",
+"productName": "Treasure-Hunt",
+"productVersion": "1",
 "dataUrl": "Dist.data.unityweb",
 "wasmCodeUrl": "Dist.wasm.code.unityweb",
 "wasmFrameworkUrl": "Dist.wasm.framework.unityweb",
