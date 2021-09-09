@@ -6,6 +6,7 @@
     <title>Unity WebGL Player | PNC-Demo</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="TemplateData/bayc-style.css">
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
 
@@ -18,7 +19,9 @@
     <div class="webgl-content">
       <div id="unityContainer" style="width: 905px; height: 540px"></div>
       <div class="footer">
-        <div class="fullscreen" style="color: rgb(62,100,77)" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="bayc-fullscreen" onclick="unityInstance.SetFullscreen(1)">
+            <img src="TemplateData\round_fullscreen_black_24dp.png"/>
+        </div>
       </div>
     </div>
 
